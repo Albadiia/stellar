@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'ABeeZee', sans-serif;
+    src: url(font/abeezee-regular-webfont.woff2) format('woff2'), url(font/abeezee-regular-webfont.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'ABeeZee', sans-serif;
+    src: url(font/abeezee-italic-webfont.woff2) format('woff2'), url(font/abeezee-italic-webfont.woff) format('woff');
+    font-style: italic;
+}
+
+html body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #e4e3e3;
+}
+
+#container {
+    background-color: #f8f8f8;
+    /* color: #fff; */
+    box-shadow: 4px 8px 0px #bdbdbd;
+    border: 1px grey solid;
+    padding: 12px;
+    border-radius: 12px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+#container h1 {
+    margin-top: 6px;
+    margin-bottom: 12px;
+    font-weight: bolder;
+    color: tomato;
+}
+
+#container input {
+    margin-bottom: 8px;
+    width: 50%;
+    background-color: #424243;
+}
+
+#container table {
+    margin-bottom: 8px;
+    border-collapse: collapse;
+}
+
+#container table td,
+#container table th {
+    border: #333333 solid 1px;
+    padding: 6px 8px;
+}
+
+#container table th {
+    background-color: tomato;
+    color: white;
+}
