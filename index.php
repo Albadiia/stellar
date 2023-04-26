@@ -36,9 +36,10 @@
     <div id="container">
         <h1>Stars</h1>
         <div class="table-sortable">
-            Loading ...
             <?php if($result): ?>
-            <pre><?php var_dump($result) ?></pre>
+                <pre><?php var_dump($result) ?></pre>
+            <?php else: ?>
+                Loading ...
             <?php endif; ?>
         </div>
     </div>
